@@ -42,6 +42,12 @@ export default function Navbar() {
               >
                 Contact
               </NavLink>
+              <NavLink 
+                to="/tos" 
+                className={({ isActive }) => getNavLinkClass(isActive)}
+              >
+                Terms of service
+              </NavLink>
             </li>
           </ul>
         </div>
