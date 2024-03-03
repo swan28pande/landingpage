@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* make it a dark mode  */
+
+body {
+  background-color: black;
+}
